@@ -18,17 +18,17 @@ const Banner = () => {
           your next project.
         </p>
 
-        <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
-          <button className="btn rounded-lg border-none bg-linear-to-r from-orange-500 to-pink-500 text-white hover:opacity-90">
-            Explore Technologies
-          </button>
-          <button className="btn btn-outline rounded-lg border-slate-300 text-slate-700 hover:bg-slate-100">
-            Learn More
-          </button>
-        </div>
+        <div className="flex flex-row items-center justify-center lg:justify-start gap-3">
+  <button className="btn rounded-lg border-none bg-linear-to-r from-orange-500 to-pink-500 text-white hover:opacity-90 px-4 sm:px-6">
+    Explore Technologies
+  </button>
+  <button className="btn btn-outline rounded-lg border-slate-300 text-slate-700 hover:bg-slate-100 px-4 sm:px-6">
+    Learn More
+  </button>
+</div>
       </div>
       <div>
-        <img src={banner} alt="hero img" className="w-56 sm:w-72 md:w-80 lg:w-auto" />
+        <img src={banner} alt="hero img" className="w-98 sm:w-96 md:w-[28rem] lg:w-[32rem] xl:w-auto mx-auto" />
       </div>
     </section>
     
