@@ -1,5 +1,4 @@
 
-
 import { IoLogoGithub } from "react-icons/io";
 import banner from "../assets/logo-text.png";
 import { FaXTwitter } from "react-icons/fa6";

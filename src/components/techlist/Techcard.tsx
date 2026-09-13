@@ -53,7 +53,7 @@ const Techcard = ({ card, stack, onAddToStack }: TechcardProps) => {
       <button
         onClick={() => onAddToStack(card)}
         disabled={isAdded}
-        className={`mt-5 w-full rounded-xl py-3 text-sm font-semibold transition-colors ${isAdded
+        className={`mt-5 w-full rounded-xl py-3 text-sm font-semibold  transition-colors ${isAdded
             ? "bg-slate-200 text-[#64748B] cursor-not-allowed"
             : "bg-slate-900 text-white hover:bg-black"
           }`}

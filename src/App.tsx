@@ -47,7 +47,7 @@ function App() {
     <Banner />
 
 
-    <main className="container mx-auto flex flex-col lg:flex-row gap-8 px-6 py-10">
+    <main className="container mx-auto flex flex-col lg:flex-row gap-8 px-6 py-10 items-start">
         <div className="flex-1">
           <Suspense fallback={<h2>Loading...</h2>}>
             <Techlist
@@ -62,8 +62,7 @@ function App() {
           <Sidebar
             stack={stack}
             onRemove={handleRemove}
-            onRemoveAll={handleRemoveAll}
-          />
+            onRemoveAll={handleRemoveAll} />
         </div>
       </main>
 
