@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar"
 import Techlist from "./components/techlist/Techlist"
 import type { Icard } from "./Types/Techcard"
 import Sidebar from "./components/Sidebar"
-import { toast } from "react-toastify"
+import { toast ,  ToastContainer } from "react-toastify"
 
 const cardFetch = async () :Promise<Icard []> =>{
   const res =await fetch('/data.json')
@@ -68,6 +68,7 @@ function App() {
       </main>
 
     <Footer />
+    <ToastContainer position="top-right" autoClose={3000} />
     </>
   )
 }
