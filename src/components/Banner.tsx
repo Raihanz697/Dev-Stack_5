@@ -37,7 +37,7 @@ const Banner = () => {
   <img
     src={banner}
     alt="hero img"
-    className=" w-[650px] max-w-none h-auto -my-10 sm:w-[550px] md:w-[500px] lg:w-[500px] xl:w-[550px]"/>
+    className=" w-162.5 sm:w-137.5 md:w-125 lg:w-125 xl:w-137.5"/>
 </div>
 
     </section>
