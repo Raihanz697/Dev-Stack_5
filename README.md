@@ -2,6 +2,10 @@
 
 Project Name: Dev Stack
 
+## 🌐 Live Demo
+
+[**View Live Demo**]()
+
 A little description: A modern and interactive React application for exploring different technologies and building  technology stack. Users can add technologies to their stack, remove individual items, or clear the entire stack with simple and responsive interactions.
 
 Technology that I use:
@@ -11,6 +15,12 @@ Technology that I use:
 4.React-Toastify 
 5.JSON 
 6.Vite
+
+## 📸 Screenshot
+Dev-Stack:
+</br>
+
+![hero-dev-stack Screenshot](/src/assets/hero-dev-stack.png)
 
 
 3 features about your project:
